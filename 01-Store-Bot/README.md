@@ -85,6 +85,9 @@ Additional evidence is available in the [evidence](evidence/) directory, includi
 - [Test Cases](Test-Cases.md)
 - [Smoke Test Checklist](Checklist.md)
 - [Exploratory Testing](Exploratory-Testing.md)
+- [Regression Checklist](Regression-Checklist.md)
+- [Database Verification](Database-Verification.md)
+- [Test Design Techniques](Test-Design-Techniques.md)
 - [Test Summary Report](Test-Summary-Report.md)
 
 ## Automated Tests

@@ -48,6 +48,7 @@ Manual testing of the Store Bot was performed to verify the main customer flow, 
 | Functional testing | 23 | 23 | 23 | 0 | 0 | Includes customer and admin flows |
 | Negative testing | 7 | 7 | 7 | 0 | 0 | Included in the functional test cases |
 | Exploratory testing | 2 | 2 | 2 | 0 | 0 | Cart/checkout and admin/order sessions |
+| Regression testing | 12 | 12 | 12 | 0 | 0 | Critical customer and admin flows |
 | **Unique test cases** | **23** | **23** | **23** | **0** | **0** | **Smoke and negative tests are subsets** |
 
 ## 4. Test Results
@@ -82,6 +83,7 @@ Manual testing of the Store Bot was performed to verify the main customer flow, 
 - Online payments and load testing were outside the scope.
 - Telegram Desktop behavior was tested; mobile behavior was not separately verified.
 - Testing was performed through two exploratory sessions covering cart/checkout and admin/order management.
+- Regression testing covered 12 critical customer and administrator checks; all passed.
 
 ## 7. Test Environment and Evidence
 
@@ -103,5 +105,5 @@ The main customer flow, checkout, order management, admin access control, and da
 - Add automated tests for checkout validation and admin flows.
 - Repeat exploratory testing before future releases.
 - Extend evidence coverage when new features are added.
-- Perform regression testing after catalog or order-flow changes.
+- Repeat the regression checklist after future catalog or order-flow changes.
 
