@@ -6,7 +6,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Denius88-black?style=flat&logo=github)](https://github.com/Denius88)
 
 **QA Engineer**  
-📍 Lviv, Ukraine | ✉️ [denis003500@gmail.com](mailto:denis003500@gmail.com) | 📱 +380 96 899 7095  
+📍 Lviv, Ukraine | ✉️ [denis003500@gmail.com](mailto:denis003500@gmail.com) |  
 
 ---
 
