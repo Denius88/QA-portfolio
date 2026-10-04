@@ -1,6 +1,13 @@
 # Test Design Techniques: Store Bot
 
-This document explains how test design techniques were applied to the Store Bot test scenarios.
+| Field | Value |
+|---|---|
+| **Application** | Store Bot |
+| **Author** | Denys Pelekh |
+| **Role** | QA Engineer |
+| **Focus** | Boundary Value Analysis, Equivalence Partitioning, State Transition, Decision Table |
+
+This document explains how core test design techniques were applied to the Store Bot test scenarios.
 
 ## Boundary Value Analysis
 

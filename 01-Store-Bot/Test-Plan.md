@@ -2,7 +2,7 @@
 
 | Metadata | Details |
 |---|---|
-| **Author** | Denis Pelekh |
+| **Author** | Denys Pelekh |
 | **Role** | QA Engineer |
 | **Document Version** | 1.0.0 |
 | **Status** | Completed |

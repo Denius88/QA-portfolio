@@ -77,7 +77,11 @@ The main customer flow and the administrator flow worked as expected in the loca
 |---|---|
 | ![Checkout](evidence/05-checkout.jpg) | ![Order created](evidence/06-order-created.jpg) |
 
-Additional evidence is available in the [evidence](evidence/) directory, including the admin panel and order status screenshots.
+### Admin Flow and Order Status
+
+| Admin panel | Order status |
+|---|---|
+| ![Admin panel](evidence/07-admin-panel.jpg) | ![Order status](evidence/08-order-status.jpg) |
 
 ## QA Artifacts
 

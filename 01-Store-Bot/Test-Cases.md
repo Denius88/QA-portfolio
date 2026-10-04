@@ -4,7 +4,7 @@
 | Field | Value |
 |---|---|
 | Application | Store Bot |
-| Author | Denis Pelekh |
+| Author | Denys Pelekh |
 | Role | QA Engineer |
 | Environment | Local, macOS, Telegram |
 | Test data | Electronics, Books, Clothing; Test Phone; Test Laptop, Test Book, Test T-Shirt |

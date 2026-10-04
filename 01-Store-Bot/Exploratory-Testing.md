@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| **Tester** | Denis Pelekh |
+| **Tester** | Denys Pelekh |
 | **Role** | QA Engineer |
 | **Application** | Store Bot |
 | **Environment** | Local, macOS, Telegram, SQLite |
@@ -17,7 +17,7 @@ Exploratory testing was performed using test charters. The tester explored the s
 |---|---|
 | **Date** | 02.10.2026 |
 | **Duration** | Approximately 30 minutes |
-| **Tester** | Denis Pelekh |
+| **Tester** | Denys Pelekh |
 | **Charter** | Explore cart operations and the checkout flow from a customer perspective. |
 | **Test data** | Test Phone, Test Book, valid phone number, and valid delivery address |
 
@@ -54,7 +54,7 @@ Exploratory testing was performed using test charters. The tester explored the s
 |---|---|
 | **Date** | 02.10.2026 |
 | **Duration** | Approximately 30 minutes |
-| **Tester** | Denis Pelekh |
+| **Tester** | Denys Pelekh |
 | **Charter** | Explore admin access, catalog management, order management, and backup behavior. |
 | **Test data** | Administrator account, regular account, test category, test product, and test order |
 

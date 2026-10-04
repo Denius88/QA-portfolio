@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | **Application** | Store Bot |
-| **Author** | Denis Pelekh |
+| **Author** | Denys Pelekh |
 | **Role** | QA Engineer |
 | **Environment** | Local, macOS, Telegram |
 | **Execution status** | Completed |

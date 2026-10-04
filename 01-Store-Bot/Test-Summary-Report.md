@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| **Author** | Denis Pelekh |
+| **Author** | Denys Pelekh |
 | **Role** | QA Engineer |
 | **Test period** | 02.10.2026 |
 | **Build / version** | v1.0-beta |
