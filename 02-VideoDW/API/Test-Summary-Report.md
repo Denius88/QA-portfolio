@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| **Author** | Denis Pelekh |
+| **Author** | Denys Pelekh |
 | **Role** | QA Engineer |
 | **Test date** | 03.10.2026 |
 | **Build** | Local working tree |

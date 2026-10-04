@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | **Application** | VideoDW Web Interface |
-| **Author** | Denis Pelekh |
+| **Author** | Denys Pelekh |
 | **Role** | QA Engineer |
 | **Status** | Completed |
 | **Environment** | Production, macOS, Safari |
@@ -30,19 +30,19 @@ The purpose of this test plan is to verify the main VideoDW browser workflow, cl
 - Light and dark theme switches.
 - Desktop and mobile showcase switch.
 - Enter key submission.
-- Chrome DevTools Network and Console checks.
+- Safari Web Inspector Network and Console checks.
 
 ### Out of Scope
 
 - Full API contract testing, covered in `../API/`.
 - Telegram bot testing.
 - Load and performance testing.
-- Browser compatibility beyond Chrome.
+- Cross-browser compatibility beyond Safari.
 - Security penetration testing.
 
 ## 3. Test Approach
 
-Testing will be performed manually in Chrome using the local frontend and backend. Network requests will be inspected in Chrome DevTools, and the Console will be checked for uncaught JavaScript errors.
+Testing will be performed manually in Safari. Network requests will be inspected in Safari Web Inspector, and the Console will be checked for uncaught JavaScript errors.
 
 ## 4. Entry Criteria
 

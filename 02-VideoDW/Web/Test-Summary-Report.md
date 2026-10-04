@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | **Application** | VideoDW Web Interface |
-| **Author** | Denis Pelekh |
+| **Author** | Denys Pelekh |
 | **Environment** | Production, macOS, Safari |
 | **Frontend URL** | `https://videodw.pp.ua` |
 | **Test date** | 03.10.2026 |

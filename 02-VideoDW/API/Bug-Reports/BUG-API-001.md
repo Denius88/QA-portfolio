@@ -4,6 +4,7 @@
 |---|---|
 | **Bug ID** | BUG-API-001 |
 | **Title** | API accepts unsupported `avi` format and processes the video as MP4 |
+| **Author** | Denys Pelekh |
 | **Related test case** | TC-API-004 |
 | **Severity** | Medium |
 | **Priority** | High |

@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | **Application** | VideoDW Media Processing Service |
-| **Tester** | Denis Pelekh |
+| **Tester** | Denys Pelekh |
 | **Environment** | Local FastAPI backend, macOS |
 | **Test date** | 03.10.2026 |
 

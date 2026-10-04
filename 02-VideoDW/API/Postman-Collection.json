@@ -38,7 +38,24 @@
           ]
         }
       },
-      "response": []
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 422 Unprocessable Entity\", function () {",
+              "    pm.response.to.have.status(422);",
+              "});",
+              "pm.test(\"Validation error indicates invalid URL\", function () {",
+              "    var jsonData = pm.response.json();",
+              "    pm.expect(JSON.stringify(jsonData)).to.include(\"Invalid URL\");",
+              "});"
+            ]
+          }
+        }
+      ]
     },
     {
       "name": "TC-API-001 - Empty request body",
@@ -72,7 +89,24 @@
           ]
         }
       },
-      "response": []
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 422 Unprocessable Entity\", function () {",
+              "    pm.response.to.have.status(422);",
+              "});",
+              "pm.test(\"Validation error indicates missing fields\", function () {",
+              "    var jsonData = pm.response.json();",
+              "    pm.expect(JSON.stringify(jsonData)).to.include(\"missing\");",
+              "});"
+            ]
+          }
+        }
+      ]
     },
     {
       "name": "TC-API-003 - Reject unsupported platform URL",
@@ -106,7 +140,20 @@
           ]
         }
       },
-      "response": []
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 422 Unprocessable Entity\", function () {",
+              "    pm.response.to.have.status(422);",
+              "});"
+            ]
+          }
+        }
+      ]
     },
     {
       "name": "TC-API-004 - Invalid format with valid URL",
@@ -140,7 +187,22 @@
           ]
         }
       },
-      "response": []
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// Expected behavior: 422 Unprocessable Entity",
+              "// Actual behavior during testing: 200 OK (Logged as BUG-API-001)",
+              "pm.test(\"Status code is 422 Unprocessable Entity (Expected)\", function () {",
+              "    pm.response.to.have.status(422);",
+              "});"
+            ]
+          }
+        }
+      ]
     },
     {
       "name": "TC-API-005 - Download valid YouTube video as MP4",
@@ -174,7 +236,23 @@
           ]
         }
       },
-      "response": []
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200 OK\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "pm.test(\"Content-Type header is present\", function () {",
+              "    pm.response.to.have.header(\"Content-Type\");",
+              "});"
+            ]
+          }
+        }
+      ]
     },
     {
       "name": "TC-API-006-GET - Retrieve generated MP3 file",
@@ -208,7 +286,20 @@
           ]
         }
       },
-      "response": []
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200 OK\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ]
+          }
+        }
+      ]
     },
     {
       "name": "TC-API-006 - Download valid YouTube video as MP3",
@@ -218,16 +309,9 @@
           "script": {
             "type": "text/javascript",
             "exec": [
-              ""
-            ]
-          }
-        },
-        {
-          "listen": "prerequest",
-          "script": {
-            "type": "text/javascript",
-            "exec": [
-              ""
+              "pm.test(\"Status code is 200 OK\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
             ]
           }
         }
@@ -280,7 +364,22 @@
           ]
         }
       },
-      "response": []
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// Expected behavior: 400 Bad Request",
+              "// Actual behavior during testing: 500 Internal Server Error (Logged as BUG-API-002)",
+              "pm.test(\"Status code is 400 Bad Request (Expected)\", function () {",
+              "    pm.response.to.have.status(400);",
+              "});"
+            ]
+          }
+        }
+      ]
     },
     {
       "name": "TC-API-008 - Return error when download file is missing",
@@ -306,7 +405,22 @@
           ]
         }
       },
-      "response": []
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// Expected behavior: 404 Not Found with clean message",
+              "// Actual behavior during testing: 404/500 with unhandled local variable (Logged as BUG-API-002)",
+              "pm.test(\"Status code is 404 Not Found (Expected)\", function () {",
+              "    pm.response.to.have.status(404);",
+              "});"
+            ]
+          }
+        }
+      ]
     },
     {
       "name": "TC-API-009 - Reject empty URL",
@@ -340,7 +454,20 @@
           ]
         }
       },
-      "response": []
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 422 Unprocessable Entity\", function () {",
+              "    pm.response.to.have.status(422);",
+              "});"
+            ]
+          }
+        }
+      ]
     },
     {
       "name": "TC-API-010 - Reject request without format",
@@ -374,7 +501,20 @@
           ]
         }
       },
-      "response": []
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 422 Unprocessable Entity\", function () {",
+              "    pm.response.to.have.status(422);",
+              "});"
+            ]
+          }
+        }
+      ]
     }
   ]
 }

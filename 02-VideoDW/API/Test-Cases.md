@@ -4,7 +4,7 @@
 | Field | Value |
 |---|---|
 | Application | VideoDW |
-| Author | Denis Pelekh |
+| Author | Denys Pelekh |
 | Role | QA Engineer |
 | Environment | Local, macOS |
 | Test data | Empty body, malformed URL, unsupported URL, invalid format, and public YouTube video |

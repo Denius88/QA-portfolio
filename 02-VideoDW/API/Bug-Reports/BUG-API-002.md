@@ -4,6 +4,7 @@
 |---|---|
 | **Bug ID** | BUG-API-002 |
 | **Title** | API returns an unhandled error for invalid or missing download IDs |
+| **Author** | Denys Pelekh |
 | **Related test cases** | TC-API-007, TC-API-008 |
 | **Severity** | High |
 | **Priority** | High |

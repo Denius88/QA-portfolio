@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| **Author** | Denis Pelekh |
+| **Author** | Denys Pelekh |
 | **Role** | QA Engineer |
 | **Document version** | 1.0.0 |
 | **Status** | Completed |
